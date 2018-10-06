@@ -9,10 +9,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Bernard Hur(許 振成) # add your name
+author: Bernard Hur # add your name
 author-img: snoopy.jpg # add your photo
-about-author: I am a journey man. # add description
-social-twitter: # add your Twitter handle
+about-author: I am a journey man # add description
+social-twitter: hurgoon # add your Twitter handle
 social-facebook: hurgoon # add your Facebook handle
 social-github: hurgoon # add your Github handle
 social-linkedin: # add your Linkedin handle
