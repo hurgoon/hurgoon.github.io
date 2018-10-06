@@ -8,5 +8,8 @@ fig-caption: # Add figcaption (optional)
 tags: [시작, Blog]
 ---
 
-시작이 쉽진 않았음. github로 무료 블로그 만들어보고 싶으신 분은 아래 링크 참조.
-https://nachwon.github.io/jekyllblog/
+시작이 쉽진 않았음.
+github로 무료 블로그 만들어보고 싶으신 분은 링크 참조.
+
+[여기요 여기!][여기요-여기!]
+[여기요-여기!]: https://nachwon.github.io/jekyllblog/
