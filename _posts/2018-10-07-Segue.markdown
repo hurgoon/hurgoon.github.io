@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Swift] Segue
+title: Segue
 date: 2018-10-07 15:00:00 +0900
 description: 디스크립션 입력란  # Add post description (optional)
 img: arrow.jpg # Add image post (optional)
