@@ -1,0 +1,25 @@
+---
+layout: post
+title: [Swift] Alert
+date: 2018-10-07 17:00:00 +0900
+description: 디스크립션 입력란  # Add post description (optional)
+img: alert.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Swift, Alert]
+---
+
+## Alert 띄우기
+1. func 구축
+  - func displayMyAlertMessage(showingMessage: String) {
+
+    var myAlert = UIAlertController(title: "Alert", message: showingMessage, preferredStyle: .Alert)
+
+    let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+
+    myAlert.addAction(okAction)
+
+    present(myAlert, animated: true, completion: nil)
+    }
+
+2. func 실행
+  - displayMyAlertMessage(showingMessage: "표시될 메세지")
