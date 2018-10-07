@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Swift, Segue]
 ---
 
-##Segue로 다음 페이지 연결방법
+## Segue로 다음 페이지 연결방법
 1. View Controller에서 연결을 원하는 페이지로 연결(Present Modally)
 2. Storyboard Segue에서 Identifier명 설정
 3. 실행을 원하는 func(viewDidLoad, viewDidAppear)에서 실행문 삽입
