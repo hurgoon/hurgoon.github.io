@@ -10,7 +10,7 @@ tags: [Swift, Alert]
 
 ## Alert 띄우기
 1. func 구축
-~~~
+```{.swift}
 func displayMyAlertMessage(showingMessage: String) {
 
     var myAlert = UIAlertController(title: "Alert", message: showingMessage, preferredStyle: .Alert)
@@ -21,7 +21,22 @@ func displayMyAlertMessage(showingMessage: String) {
 
     present(myAlert, animated: true, completion: nil)
 }
+```
+
+~~~Swift
+func displayMyAlertMessage(showingMessage: String) {
+
+    var myAlert = UIAlertController(title: "Alert", message: showingMessage,   present(myAlert, animated: true, completion: nil)
+}
 ~~~
+
+```Swift
+func displayMyAlertMessage(showingMessage: String) {
+
+    var myAlert = UIAlertController(title: "Alert", message: showingMessage,   present(myAlert, animated: true, completion: nil)
+}
+```
+
 
 2. func 실행
 ~~~
