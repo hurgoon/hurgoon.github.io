@@ -13,12 +13,16 @@ tags: [Swift, Alert]
 ```swift
 func displayMyAlertMessage(showingMessage: String) {
 
+    // myAlert으로 UIAlertController 모양 잡기
     var myAlert = UIAlertController(title: "Alert", message: showingMessage, preferredStyle: .Alert)
 
+    // Alert창에서 OK 버튼 만들기
     let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
 
+    // myAlert에 OK 버튼 넣어주기
     myAlert.addAction(okAction)
 
+    // myAlert 표시하기
     present(myAlert, animated: true, completion: nil)
 }
 ```
