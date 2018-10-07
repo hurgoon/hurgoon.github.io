@@ -11,7 +11,7 @@ tags: [Swift, Alert]
 ## Alert 띄우기
 1. func 구축
 ```swift
-func displayMyAlertMessage(showingMessage: String) {
+    func displayMyAlertMessage(showingMessage: String) {
 
     // myAlert으로 UIAlertController 모양 잡기
     var myAlert = UIAlertController(title: "Alert", message: showingMessage, preferredStyle: .Alert)
@@ -29,5 +29,5 @@ func displayMyAlertMessage(showingMessage: String) {
 
 2. func 실행
 ```swift
-displayMyAlertMessage(showingMessage: "표시될 메세지")
+    displayMyAlertMessage(showingMessage: "표시될 메세지")
 ```
