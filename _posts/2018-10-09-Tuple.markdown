@@ -18,4 +18,9 @@ tags: [Swift, Tuple]
     time.h
     time.m
     time.s
+
+    let time2 = (h: 11, m: 10, s: 9)
+
+    // 튜플에 튜플 넣기
+    let allTime = (time, time2)    
 ```
