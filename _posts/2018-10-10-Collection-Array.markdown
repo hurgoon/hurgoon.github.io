@@ -10,7 +10,7 @@ tags: [Swift, Collection, Array, Dictionary, Set]
 
 ## Collection
 
-# Array
+### Array
 ```swift
     // 설정
     var meetingRooms: Array<String> = ["Bansky", "Rivera", "Picasso"]
@@ -26,7 +26,7 @@ tags: [Swift, Collection, Array, Dictionary, Set]
     meetingRooms.last
 ```
 
-# Dictionary
+### Dictionary
 ```swift
     // 설정
     var roomCapacity: [String:Int] = [:]
@@ -46,7 +46,7 @@ tags: [Swift, Collection, Array, Dictionary, Set]
     let roomCapacities = roomCapacity.value
 ```
 
-# Set(순서를 가지고 있지 않은 Collection. 집합연산하기 좋다. 반드시 "Set"명기필요!)
+### Set(순서를 가지고 있지 않은 Collection. 집합연산하기 좋다. 반드시 "Set"명기필요!)
 ```swift
     // 설정
     let submultipleOf30: Set = [1, 2, 3, 5, 6, 10, 15, 30]
