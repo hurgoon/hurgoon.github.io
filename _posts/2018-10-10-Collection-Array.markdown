@@ -56,5 +56,5 @@ tags: [Swift, Collection, Array, Dictionary, Set]
     let intersect(교집합) = submultipleOf30.intersection(submultipleOf8)
     let union(합집합) = submultipleOf30.union(submultipleOf8)
     let subtract(차집합) = submultipleOf30.subtracting(submultipleOf8)
-    let symmetricDifference(차집합의 여집합) = submultipleOf30.symmetricDifference(submultipleOf8)
+    let symmetricDifference(교집합의 여집합) = submultipleOf30.symmetricDifference(submultipleOf8)
 ```
