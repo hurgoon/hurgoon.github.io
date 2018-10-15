@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Swift, Layout]
 ---
 
-## AppDelegate 기본 코드
+## Layout by code
 
 ### 코드로 작성시
 ```swift
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
 
         blueView.frame = CGRect(
             origin: CGPoint(
-                x: redView.frame.maxX + 10, 
+                x: redView.frame.maxX + 10,
                 y: yOffset),
             size: redView.bounds.size
         )
