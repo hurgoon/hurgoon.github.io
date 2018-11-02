@@ -1,0 +1,42 @@
+---
+layout: post
+title: get and set
+date: 2018-11-02 10:00:00 +0900
+description: 디스크립션 입력란  # Add post description (optional)
+img:  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Swift, Property, Observers, get, set]
+---
+
+## get & set
+
+### example
+```swift
+struct Point {
+    var x = 0.0
+    var y = 0.0
+}
+
+struct Shape {
+    var origin = Point()    // 저장 프로퍼티
+    var center: Point {     // 연산 프로퍼티
+        get {
+            return Point(x: origin.x/2 , y: origin.y/2)
+        }
+        set {
+            origin.x = newValue.x * 2
+            origin.y = newValue.y * 2
+        }
+    }
+}
+
+var aShape = Shape(origin: Point(x: 10, y: 6)) // get 발동
+print(aShape.origin)  
+print(aShape.center)
+
+var bShape = Shape()
+bShape.center = Point(x: 20, y: 10) // set 발동
+print(bShape.origin)
+print(bShape.center)
+
+```
