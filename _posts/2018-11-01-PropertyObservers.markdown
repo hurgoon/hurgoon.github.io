@@ -1,56 +1,34 @@
 ---
 layout: post
-title: Function Type
-date: 2018-10-25 18:20:00 +0900
+title: Property Observers
+date: 2018-11-01 20:00:00 +0900
 description: 디스크립션 입력란  # Add post description (optional)
 img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Swift, Function, func]
+tags: [Swift, Property, Observers, willSet, didSet]
 ---
 
-## Function Type 예제
->하기 내용은 글그리님의 [블로그](https://eastroot1590.tistory.com/entry/Swift-%ED%95%A8%EC%88%98-%EC%8B%AC%ED%99%94-Function-Type?category=793494)를 참조했음을 밝힙니다
+## Property Observers
 
-### 1. 함수를 파라미터로 갖는 예제
+### willSet & didSet
 ```swift
-// func 설정
-func plus(a: Int, b:Int) -> Int {
-	return a + b
-}
-func minus(a: Int, b: Int) -> Int {
-	return a - b
-}
-func multiply(a: Int, b: Int) -> Int {
-	return a * b
-}
-
-// func를 파라미터로 받는 func 설정
-func printMath(f: (Int, Int)->Int, a: Int, b: Int) {
-	print("result = \(f(a,b))")
+class StepCounter {
+    var totalSteps: Int = 0 {
+        willSet(newSteps) { // (newSteps) 삭제하고 newValue로 사용가능
+            print("About to set totalSteps to \(newSteps)")
+        }
+        didSet {  // oldValue 대신에 원하는 것으로 ()안에 대체 가능
+            if totalSteps > oldValue {
+                print("Added \(totalSteps - oldValue) Steps")
+            }
+        }
+    }
 }
 
-// 실행문
-printMath(f: plus, a: 5, b: 3)		// 8
-printMath(f: minus, a: 5, b: 3)		// 2
-printMath(f: multiply, a: 5, b: 3)	// 15
+var steps = StepCounter()
+steps.totalSteps = 3
+steps.totalSteps = 400
 ```
 
-### 2. 함수를 반환 값으로 하는 예제
-```swift
-func plusplus(_ input: Int) -> Int {
-	return input + 1
-}
-func minusminus(_ input: Int) -> Int {
-	return input - 1
-}
-
-func factory(index: Bool) -> (Int)->Int {
-	return index ? plusplus : minumminus   // 조건에 따라 리턴에 func를 넣어 돌린다... 하아...
-}
-
-var gage1 = 5
-var gage2 = -7
-
-let goToZero1 = factory(index: gage1 < 0)	// 인덱스가 false라서 func마이너스 가동
-let goToZero2 = factory(index: gage2 < 0)	// 인덱스가 true라서 func플러스 가동
-```
+willSet은 새로운 값이 들어오면 캐치해서 명령을 실행한다.
+didSet은 바로 이전 값을 남겨서 사용한다...  이제야 알다니.... ;ㅁ;
