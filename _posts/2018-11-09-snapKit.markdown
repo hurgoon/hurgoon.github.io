@@ -12,13 +12,21 @@ tags: [Swift, SnapKit]
 
 ### 준비!!
 terminal
+
 cd 프로젝트 폴더
+
 cd .. (한단계 올리고... 프로젝트 루트폴더)
+
 pod init
+
 vi Podfile -> pod 'SnapKit' 입력
+
 pod install
+
 xcworkspace로 Open필요
+
 빌드 한번 해주고 작업 시작!!
+
 
 ### example
 ```swift
