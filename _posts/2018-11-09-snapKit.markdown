@@ -1,0 +1,57 @@
+---
+layout: post
+title: SnapKit
+date: 2018-11-09 17:30:00 +0900
+description: 디스크립션 입력란  # Add post description (optional)
+img:  # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Swift, SnapKit]
+---
+
+## SnapKit
+
+### example
+```swift
+view.addSubview(view1)
+view1.snp.makeConstraints { (m) in
+  m.width.equalTo(view.snp.width) // 복제되는 내용이 같으면 생략 가능
+  m.height.equalTo(64) // 높이는 64 이다
+  m.top.equalTo(view).offset(70) // view top에서 70 띄어줌
+}
+
+view.addSubview(view4)
+view4.snp.makeConstraints { (m) in
+  m.width.equalTo(view).dividedBy(4)  // width는 view의 1/4 이다
+  m.height.equalTo(view.snp.width).dividedBy(4) // height도 view의 1/4 이다
+  m.leading.equalTo(view)
+  m.bottom.equalTo(view).offset(-34) // bottom은 view의 bottom에서 -34 띄운다
+}
+
+view.addSubview(view5)
+view5.snp.makeConstraints { (m) in
+  m.width.equalTo(view).dividedBy(4)
+  m.height.equalTo(view.snp.width).dividedBy(4)
+  m.leading.equalTo(view4.snp.trailing) // leading은 view4 trailing과 같다
+  m.bottom.equalTo(view).offset(-34)
+}
+
+view.addSubview(view6)
+view6.snp.makeConstraints { (m) in
+  m.width.equalTo(view).dividedBy(4)
+  m.height.equalTo(view.snp.width).dividedBy(4)
+  m.leading.equalTo(view5.snp.trailing).offset(30) // view5의 trailing에서 30만큼 띄우겠다. (반대는 inset)
+  m.bottom.equalTo(view).offset(-34)
+}
+
+view.addSubview(view8)
+view8.snp.makeConstraints { (m) in
+  m.width.equalTo(view)
+  m.top.equalTo(view1.snp.bottom)
+  m.bottom.equalTo(view5.snp.top)
+}
+
+view8.addSubview(view9)
+view9.snp.makeConstraints { (m) in
+  m.edges.equalTo(view8).inset(15) // 모서리들을 view8 edges기준, 안으로 15씩 넣겠다
+}
+```
