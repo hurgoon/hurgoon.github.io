@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Squat Game Terms
+title: Squat Game Terms & conditions
 date: 2022-03-13 00:00:00 +0900
 description: 디스크립션 입력란  # Add post description (optional)
 img:  # Add image post (optional)
