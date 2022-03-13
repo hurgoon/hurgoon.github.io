@@ -10,3 +10,4 @@ tags: [Swift, gem, pod, update]
 
 ## Gem & Pods updates
 brew update; brew upgrade; gem update; gem cleanup; pod repo update;
+pod install --repo-update
