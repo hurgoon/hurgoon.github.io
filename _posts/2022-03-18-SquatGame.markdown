@@ -8,7 +8,7 @@ fig-caption: # Add figcaption (optional)
 tags: [Squat Game]
 ---
 
-{% include youtube.html id="LNF-fd_JYkU" %}  
+<!-- {% include youtube.html id="LNF-fd_JYkU" %}   -->
 
 ***
 
@@ -28,7 +28,7 @@ tags: [Squat Game]
 
 ***
 
-<iframe src="https://www.youtube.com/embed/LNF-fd_JYkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- <iframe src="https://www.youtube.com/embed/LNF-fd_JYkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ***
 ### Download Apps   
@@ -41,5 +41,5 @@ tags: [Squat Game]
 
 ### Release Note
 2022-03-18 : Initial release
-   
+***   
 ***
