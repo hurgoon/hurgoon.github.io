@@ -2,7 +2,7 @@
 layout: post
 title: Squat Game
 date: 2022-03-18 00:00:00 +0900
-description: 디스크립션 입력란  # Add post description (optional)
+description: You can download Squat Game from hear
 img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Squat Game]
