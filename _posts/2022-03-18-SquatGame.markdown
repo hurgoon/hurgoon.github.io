@@ -41,4 +41,5 @@ tags: [Squat Game]
 
 ### Release Note
 2022-03-18 : Initial release
+
 ***   
