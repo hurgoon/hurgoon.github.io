@@ -1,17 +1,17 @@
-title: Hello, world! I'm Bernard Hur(hurgoon)
+title: Everyone's
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://hurgoon.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Bernard Hur # add your name
-author-img: ryan.jpg # add your photo
-about-author: If you come at 4 o’clock, I will be happy from 3 o’clock. # add description
+author-img: squatgame.png # add your photo
+about-author: We create fun and practical apps. # add description
 social-twitter: bernardhur # add your Twitter handle
 social-facebook: hurgoon # add your Facebook handle
 social-github: hurgoon # add your Github handle
