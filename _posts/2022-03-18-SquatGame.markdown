@@ -23,3 +23,8 @@ tags: [Squat Game]
 
 ## Release note
 - 2022-03-18 : Initial release
+
+***
+
+### General Terms
+By accessing and placing an order with Squat Game, you confirm that you are in agreement with and bound by the terms of service contained in the Terms & Conditions outlined below. These terms apply to the entire website and any email or other type of communication between you and Squat Game.
