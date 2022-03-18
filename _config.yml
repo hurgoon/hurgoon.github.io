@@ -12,11 +12,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Everyone's # add your name
 author-img: squatgame.png # add your photo
 about-author: We create fun and practical apps. # add description
-social-twitter: bernardhur # add your Twitter handle
-social-facebook: hurgoon # add your Facebook handle
-social-github: hurgoon # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: hurgoon@gmail.com # add your Email address
+# social-twitter: bernardhur # add your Twitter handle
+# social-facebook: hurgoon # add your Facebook handle
+# social-github: hurgoon # add your Github handle
+# social-linkedin: # add your Linkedin handle
+# social-email: hurgoon@gmail.com # add your Email address
 
 # Disqus
 # discus-identifier: hurgoon-github-io # add your discus identifier
