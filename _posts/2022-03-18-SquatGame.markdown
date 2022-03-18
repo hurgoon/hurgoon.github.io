@@ -12,7 +12,7 @@ tags: [Squat Game]
 
 ***
 
-<div style="margin: 0px auto; max-width:780px;background-color: #FFF;padding-bottom: 50px;">
+<!-- <div style="margin: 0px auto; max-width:780px;background-color: #FFF;padding-bottom: 50px;">
       <style type="text/css">
       .embed-container iframe,
       .embed-container object,
@@ -23,7 +23,7 @@ tags: [Squat Game]
             src="https://www.youtube.com/embed/s-3e17Bxj74?rel=0" title="동영상" width="100%">
           </iframe>
       </div>
-</div>
+</div> -->
 
 
 ***
@@ -42,4 +42,3 @@ tags: [Squat Game]
 ### Release Note
 2022-03-18 : Initial release
 ***   
-***
