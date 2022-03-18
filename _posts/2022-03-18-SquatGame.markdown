@@ -8,7 +8,10 @@ fig-caption: # Add figcaption (optional)
 tags: [Squat Game]
 ---
 
-<iframe src="https://www.youtube.com/embed/LNF-fd_JYkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube.html id="LNF-fd_JYkU" %}  
+
+
+<!-- <iframe src="https://www.youtube.com/embed/LNF-fd_JYkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
 ### Download Apps
