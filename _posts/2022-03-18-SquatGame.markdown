@@ -21,6 +21,7 @@ tags: [Squat Game]
 ***
 
 ### Release note
+- 2022-03-20 : Terms & conditions URL updated. Android 12 version available.
 - 2022-03-18 : Initial release
 
 ***
