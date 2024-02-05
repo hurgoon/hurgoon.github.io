@@ -236,4 +236,4 @@ For more information about these rights, please contact us.
 ### Contact Us
 Don't hesitate to contact us if you have any questions.
 
-Via Email: hjsjpbiz@gmail.com || silver.cap00@gmail.com
+Via Email: hjsjpbiz@gmail.com or silver.cap00@gmail.com
