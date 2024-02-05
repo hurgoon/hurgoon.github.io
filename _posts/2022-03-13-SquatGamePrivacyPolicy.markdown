@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Squat Game Privacy Policy
-date: 2022-03-13 00:20:00 +0900
+date: 2024-02-05 00:20:00 +0900
 description: 디스크립션 입력란  # Add post description (optional)
 img:  # Add image post (optional)
 fig-caption: # Add figcaption (optional)
@@ -9,7 +9,7 @@ tags: [Squat Game]
 ---
 
 ## Squat Game Privacy Policy
-Updated at 2022-03-13
+Updated at 2024-02-05
 
 Squat Game (“we,” “our,” or “us”) is committed to protecting your privacy. This Privacy Policy explains how your personal information is collected, used, and disclosed by Squat Game.
 
@@ -236,4 +236,4 @@ For more information about these rights, please contact us.
 ### Contact Us
 Don't hesitate to contact us if you have any questions.
 
-Via Email: silver.cap00@gmail.com
+Via Email: hjsjpbiz@gmail.com || silver.cap00@gmail.com
